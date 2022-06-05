@@ -1,0 +1,33 @@
+{
+	"client": {
+		"id": "982947044501102612"
+	},
+	"text": {
+		"details": {
+			"text":"Pracuje nad tajnymi projektami."
+		},
+		"state": {
+			"text":"Tajny Projekt"
+		}
+	},
+	"images": {
+		"large": {
+			"key": "kaaajk4peek",
+			"text": "Rodzynka Entertainment"
+		},
+		"small": {
+			"key":"kaaajka",
+			"text":"Tajny Projekt"
+		}
+	},
+	"buttons": {
+		"one": {
+			"name":"YouTube",
+			"url":"https://www.youtube.com/channel/UCsdRhZ8q6BI5vB_7DkpoRpA"
+		},
+		"two": {
+			"name":"Twitch",
+			"url":"https://www.twitch.tv/nedi6"
+		}
+	}
+}
