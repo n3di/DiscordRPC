@@ -10,37 +10,37 @@
 ## KONFIGURACJA
 ```json
 {
-	"client": {
-		"id": "ID-APLIKACJI"
-	},
-	"text": {
-		"details": {
-			"text":"PIERWSZY-TEKST-OBOK-OBRAZKA"
-		},
-		"state": {
-			"text":"DRUGI-TEKST-OBOK-OBRAZKA"
-		}
-	},
-	"images": {
-		"large": {
-			"key": "NAZWA-DUŻEGO-OBRAZU",
-			"text": "NAZWA-WYŚWIETLANA"
-		},
-		"small": {
-			"key":"NAZWA-MAŁEGO-OBRAZU",
-			"text":"NAZWA-WYŚWIETLANA"
-		}
-	},
-	"buttons": {
-		"one": {
-			"name":"PRZYCISK",
-			"url":"LINK-URL"
-		},
-		"two": {
-			"name":"PRZYCISK",
-			"url":"LINK-URL"
-		}
-	}
+   "client":{
+      "id":"ID-APLIKACJI"
+   },
+   "text":{
+      "details":{
+         "text":"PIERWSZY-TEKST-OBOK-OBRAZKA"
+      },
+      "state":{
+         "text":"DRUGI-TEKST-OBOK-OBRAZKA"
+      }
+   },
+   "images":{
+      "large":{
+         "key":"NAZWA-DUŻEGO-OBRAZU",
+         "text":"NAZWA-WYŚWIETLANA"
+      },
+      "small":{
+         "key":"NAZWA-MAŁEGO-OBRAZU",
+         "text":"NAZWA-WYŚWIETLANA"
+      }
+   },
+   "buttons":{
+      "one":{
+         "name":"PRZYCISK",
+         "url":"LINK-URL"
+      },
+      "two":{
+         "name":"PRZYCISK",
+         "url":"LINK-URL"
+      }
+   }
 }
 ````
 - Wynik:
