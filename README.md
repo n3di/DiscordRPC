@@ -1,17 +1,11 @@
-# Discord Rich Presence (WITH BUTTONS) !!
-- Discord RPC with 2 clickable buttons and more!
-
+# Discord Rich Presence
 ## USTAWIENIE
 - Musisz mieć aplikację utworzoną w [Discord Developers Portal](https://discord.com/developers/applications) 
-- Jeśli jeszcze jej nie masz, utwórz ją i umieść jej identyfikator w config.json > wiersz 2 zastępując „ID-TUTAJ” z Twoim identyfikatorem między „”. 
-- W aplikacji przejdź do Rich Presence > Art Assets i prześlij wybrane zdjęcie. 
-- Jakkolwiek nazwiesz to zdjęcie, musisz wstawić to w config,json > wiersz 3, zastępując "NAZWA-DUŻEGO-OBRAZU" nazwą pomiędzy "". 
-- Umieść dowolny tekst w configjson > wiersz 4, który pojawi się po kliknięciu obrazu. 
-- Umieść dowolny tekst dla szczegółów, które będą wyświetlane obok dużego obrazu w config.json > linia 5. 
-- Ostatnie 4 linie są bardzo objaśniające. Po prostu nazwij swoje nazwy przycisków i odpowiednio adres URL! 
-- Musisz mieć uruchomioną grę w swojej aplikacji Discord, aby połączyć się ze statusem RPC! 
-- Na koniec, po skonfigurowaniu całego tego gówna, po prostu uruchom launch.bat !! 
-- Cieszyć się!
+- Jeśli jeszcze jej nie masz, utwórz ją i umieść jej identyfikator w config.json zastępując "ID-APLIKACJI" z Twoim identyfikatorem między "". 
+- W aplikacji przejdź do Rich Presence > Art Assets i prześlij wybrane zdjęcie.
+- Nazwy zdjęć, które przsłałeś muszą być również ustawione w "key".
+- Na koniec, po skonfigurowaniu całego tego gówna, po prostu uruchom launch.bat.
+- Ciesz się!
 
 ## KONFIGURACJA
 ```json
@@ -29,12 +23,12 @@
 	},
 	"images": {
 		"large": {
-			"key": "NAZWA-IKONY-W-APLIKACJI",
-			"text": "NAZWA-WYŚWITLANA"
+			"key": "NAZWA-DUŻEGO-OBRAZU",
+			"text": "NAZWA-WYŚWIETLANA"
 		},
 		"small": {
-			"key":"NAZWA-IKONY-W-APLIKACJI",
-			"text":"NAZWA-WYŚWITLANA"
+			"key":"NAZWA-MAŁEGO-OBRAZU",
+			"text":"NAZWA-WYŚWIETLANA"
 		}
 	},
 	"buttons": {
